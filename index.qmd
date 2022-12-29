@@ -1,13 +1,11 @@
 ---
 title: "rss-quarto"
-listing:
-  contents: posts
-  sort: "date desc"
-  type: default
-  categories: true
-  sort-ui: false
-  filter-ui: false
+listing: 
+  id: blog-listings
+  contents: blogs.yml
   feed: true
+metadata-files: 
+  - _metadata.yml
 page-layout: full
 title-block-banner: true
 ---
